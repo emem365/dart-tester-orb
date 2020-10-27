@@ -3,9 +3,9 @@ description: Sample Test Dart packages
 usage:
   version: 2.1
   orbs:
-    <orb-name>: emem365/dart-tester@0.1.0
+    dart-tester-orb: emem365/dart-tester-orb@0.1.0
   workflows:
     lint-and-test:
       jobs:
-        - dart-tester/lint
-        - dart-tester/test
+        - dart-tester-orb/lint
+        - dart-tester-orb/test
