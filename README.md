@@ -4,11 +4,7 @@
 
 
 
-A starter template for orb projects. Build, test, and publish orbs automatically on CircleCI with [Orb-Tools](https://circleci.com/orbs/registry/orb/circleci/orb-tools).
-
-Additional READMEs are available in each directory.
-
-
+Circle CI Orb to test your dart packages using CircleCI
 
 ## Resources
 

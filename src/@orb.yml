@@ -1,7 +1,7 @@
 version: 2.1
 
 description: >
-  Sample orb description
+  Circle CI Orb to test your dart packages using CircleCI
 # What will your orb allow users to accomplish?
 # Descriptions should be short, simple, and informative.
 
