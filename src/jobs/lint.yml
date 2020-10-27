@@ -1,0 +1,12 @@
+description: "Run static analysis for dart"
+
+executor: default
+
+steps:
+  - checkout
+  - run:
+      name: Install dependencies
+      command: pub get
+  - run:
+      name: Run analyzer
+      command: dartanalyzer lib

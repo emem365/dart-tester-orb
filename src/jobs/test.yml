@@ -1,0 +1,12 @@
+description: "Run tests for dart"
+
+executor: default
+
+steps:
+  - checkout
+  - run:
+      name: Install dependencies
+      command: pub get
+  - run:
+      name: Run Tests
+      command: pub run test ./test/
